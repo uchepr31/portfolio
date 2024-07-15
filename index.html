@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./index.css">
+    <title>Portfolio</title>
+
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+          <a href="/">Prince Uchechukwu</a>
+        </div>
+
+        <div class="right">
+
+          <a href="https://github.com/uchepr31" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+            <span>Github</span>
+          </a>
+          
+          <a href="https://www.linkedin.com/in/prince-uchechukwu-0b277222b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-linkedin"></i>
+            <span>Linkedin</span>
+          </a>
+          
+          <a href="https://docs.google.com/document/d/1nQDZ7oK6KJj6Tuw7dAxLUXcpcm6QQrqL/edit?usp=sharing&ouid=112297173068144471057&rtpof=true&sd=true">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Cv</span>
+          </a>
+
+        </div>
+        
+    </nav>
+
+      <!-- SECTION 1: Hero -->
+    <section class="hero-section">
+      <div class="text">
+        <h2>Hi, I'm Prince 👋</h2>
+        <p>
+          An aspiring software developer dedicated to improving skills through hands-on learning and
+          development work. Proficient in web development. Adept at using HTML, CSS, Javascript 
+          and any other programming languages to produce clean code.
+          A well organised and collaborative team player with strong communication and analytical 
+          abilities.
+        </p>
+
+        <div class="links">
+          <a href="#home">
+          <i class="fa-solid fa-house"></i>
+          <span>Home</span>
+          </a>
+
+          <a href="#skills">
+            <i class="fa-solid fa-code"></i>
+            <span>Skills</span>
+          </a>
+                                  
+          <a href="#about">
+            <i class="fa-solid fa-pen"></i>
+            <span>About</span>
+          </a>
+                                  
+          <a href="#contact">
+            <i class="fa-solid fa-envelope"></i>
+            <span>Contact</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="headshot">
+        <img src="./here we go.jpeg" alt="Prince uche headshot">
+      </div>
+
+    </section>
+
+      <!-- SECTION 2: Skills -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          As an aspiring software developer, I have developed a solid foundation in various
+          programming languages and technologies. My skill set is continuously evolving as I take
+          on new challenges and projects, always aiming to improve and stay current with industry trends. 
+          My primary skills include:
+        </div>
+
+        <div class="cells">
+          <div class="cell">
+            <img src="html-logo.webp" alt="html logo">
+            <span>HTML</span>
+          </div>
+          
+          <div class="cell">
+            <img src="./css-logo.webp" alt="css logo">
+            <span>CSS</span>
+          </div>
+          
+          <div class="cell">
+            <img src="./javascript-logo.webp" alt="javascript logo">
+            <span>JavaScript</span>
+          </div>
+          
+          <div class="cell">
+            <img src="./node-logo.webp" alt="node logo">
+            <span>Node.js</span>
+          </div>
+          
+          <div class="cell">
+            <img src="./react-logo.webp" alt="react logo">
+            <span>React.js</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: About -->
+      <section id="about" class="about-section">
+        <h2>About me</h2>
+
+        <div class="group">
+
+          <div class="person-details">
+            <img src="./uchepr7.jpeg">
+            <p>Prince Uchechukwu</p>
+            <p>Aspiring software developer</p>
+          </div>
+
+          <div class="text">
+            Hello! I’m Prince Uchechukwu 👋, an aspiring software developer with a passion for creating innovative 
+            and efficient digital solutions. Currently, I am focusing on building my skills in various programming
+            languages and technologies, including [HTML/CSS, Javascript, Python, etc.].
+            I have a keen interest in [specific area of interest web development and enjoy tackling challenging problems 
+            and learning new things. My goal is to leverage my skills to contribute to impactful projects and grow as a 
+            developer. When I’m not coding, you can find me reading tech blogs, participating in coding competitions, 
+            or exploring new tech trends. I’m excited to connect with other tech enthusiasts and collaborate on exciting 
+            projects.
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            I'd love to hear from you! Whether you have a question, a project idea,
+            or just want to connect, feel free to reach out. Don't forget to send in your messages.
+            I look forward to connecting with you!
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10" required></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+    
+  </body>
+</html>
